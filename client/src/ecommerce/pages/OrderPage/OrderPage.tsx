@@ -32,10 +32,6 @@ const OrderPage: React.FC<OrderPageProps> = () => {
                     Created at
                   </th>
 
-                <th scope="col" className="px-4 py-3">
-                  Updated at
-                </th>
-
                   <th scope="col" className="px-4 py-3 hidden md:table-cell">
                     Delivered at
                   </th>
