@@ -23,6 +23,11 @@ const CartPage: React.FC<CartPageProps> = () => {
           <ShippingForm cart={cart} totalPrice={totalPrice} />
         )}
 
+        {/* ========== Shipping Address ========== */}
+        {isAuth && !!cart.length && (
+          <ShippingForm cart={cart} totalPrice={totalPrice} />
+        )}
+
         {!cart.length && (
           <div className="flex items-center justify-center pt-6">
             <Link
