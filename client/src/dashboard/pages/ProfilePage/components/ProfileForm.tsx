@@ -90,12 +90,6 @@ const ProfileForm: React.FC<ProfileFormProps> = ({ user }) => {
     setImgWasChanged(true);
   };
 
-  const addImage = () => {
-    setImage(null);
-    setIsHovered(false);
-    setImgWasChanged(true);
-  };
-
   return (
     <div className="p-11 relative">
       {/* ============ Close modal ============ */}
