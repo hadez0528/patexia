@@ -33,6 +33,19 @@ const CategoriesPage: React.FC<CategoriesPageProps> = () => {
         </div>
 
         <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <Link to={'/categories/Keyboards'}>
+            <img className="rounded-t-lg" src="/logo.png" alt="" />
+          </Link>
+          <div className="p-5 ">
+            <Link to={'/categories/Keyboards'}>
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                Keyboards
+              </h5>
+            </Link>
+          </div>
+        </div>
+
+        <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
           <Link to={'/categories/Lang'}>
             <img className="rounded-t-lg" src="/logo.png" alt="" />
           </Link>
