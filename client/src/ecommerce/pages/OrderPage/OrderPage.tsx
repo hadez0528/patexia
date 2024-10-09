@@ -45,10 +45,6 @@ const OrderPage: React.FC<OrderPageProps> = () => {
                   </th>
 
                   <th scope="col" className="px-4 py-3 hidden md:table-cell">
-                    Secondary Address
-                  </th>
-
-                  <th scope="col" className="px-4 py-3 hidden md:table-cell">
                     Zip code
                   </th>
                 </tr>
